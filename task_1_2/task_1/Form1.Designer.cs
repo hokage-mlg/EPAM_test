@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.dimensionBox = new System.Windows.Forms.TextBox();
+            this.inputDimensionBox = new System.Windows.Forms.TextBox();
             this.button_sort = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.output_arrayBox = new System.Windows.Forms.TextBox();
+            this.outputArrayBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.input_arrayBox = new System.Windows.Forms.TextBox();
+            this.inputArrayBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.searchBox = new System.Windows.Forms.TextBox();
+            this.inputSearchBox = new System.Windows.Forms.TextBox();
             this.find_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -51,12 +51,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Input array:";
             // 
-            // dimensionBox
+            // inputDimensionBox
             // 
-            this.dimensionBox.Location = new System.Drawing.Point(144, 41);
-            this.dimensionBox.Name = "dimensionBox";
-            this.dimensionBox.Size = new System.Drawing.Size(216, 22);
-            this.dimensionBox.TabIndex = 1;
+            this.inputDimensionBox.Location = new System.Drawing.Point(144, 41);
+            this.inputDimensionBox.Name = "inputDimensionBox";
+            this.inputDimensionBox.Size = new System.Drawing.Size(216, 22);
+            this.inputDimensionBox.TabIndex = 1;
             // 
             // button_sort
             // 
@@ -78,14 +78,14 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Result:";
             // 
-            // output_arrayBox
+            // outputArrayBox
             // 
-            this.output_arrayBox.Location = new System.Drawing.Point(171, 291);
-            this.output_arrayBox.Multiline = true;
-            this.output_arrayBox.Name = "output_arrayBox";
-            this.output_arrayBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.output_arrayBox.Size = new System.Drawing.Size(509, 194);
-            this.output_arrayBox.TabIndex = 4;
+            this.outputArrayBox.Location = new System.Drawing.Point(171, 291);
+            this.outputArrayBox.Multiline = true;
+            this.outputArrayBox.Name = "outputArrayBox";
+            this.outputArrayBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.outputArrayBox.Size = new System.Drawing.Size(509, 194);
+            this.outputArrayBox.TabIndex = 4;
             // 
             // label3
             // 
@@ -97,12 +97,12 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Dimension: ";
             // 
-            // input_arrayBox
+            // inputArrayBox
             // 
-            this.input_arrayBox.Location = new System.Drawing.Point(147, 91);
-            this.input_arrayBox.Name = "input_arrayBox";
-            this.input_arrayBox.Size = new System.Drawing.Size(213, 22);
-            this.input_arrayBox.TabIndex = 6;
+            this.inputArrayBox.Location = new System.Drawing.Point(147, 91);
+            this.inputArrayBox.Name = "inputArrayBox";
+            this.inputArrayBox.Size = new System.Drawing.Size(213, 22);
+            this.inputArrayBox.TabIndex = 6;
             // 
             // label4
             // 
@@ -124,12 +124,12 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Number to search:";
             // 
-            // searchBox
+            // inputSearchBox
             // 
-            this.searchBox.Location = new System.Drawing.Point(631, 41);
-            this.searchBox.Name = "searchBox";
-            this.searchBox.Size = new System.Drawing.Size(165, 22);
-            this.searchBox.TabIndex = 9;
+            this.inputSearchBox.Location = new System.Drawing.Point(631, 41);
+            this.inputSearchBox.Name = "inputSearchBox";
+            this.inputSearchBox.Size = new System.Drawing.Size(165, 22);
+            this.inputSearchBox.TabIndex = 9;
             // 
             // find_button
             // 
@@ -147,15 +147,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 519);
             this.Controls.Add(this.find_button);
-            this.Controls.Add(this.searchBox);
+            this.Controls.Add(this.inputSearchBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.input_arrayBox);
+            this.Controls.Add(this.inputArrayBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.output_arrayBox);
+            this.Controls.Add(this.outputArrayBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button_sort);
-            this.Controls.Add(this.dimensionBox);
+            this.Controls.Add(this.inputDimensionBox);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Task 1 & 2. Sorting and search.";
@@ -167,15 +167,15 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox dimensionBox;
+        private System.Windows.Forms.TextBox inputDimensionBox;
         private System.Windows.Forms.Button button_sort;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox output_arrayBox;
+        private System.Windows.Forms.TextBox outputArrayBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox input_arrayBox;
+        private System.Windows.Forms.TextBox inputArrayBox;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox searchBox;
+        private System.Windows.Forms.TextBox inputSearchBox;
         private System.Windows.Forms.Button find_button;
     }
 }

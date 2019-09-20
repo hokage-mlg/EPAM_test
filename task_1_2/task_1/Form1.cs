@@ -47,19 +47,19 @@ namespace task_1
             }
             if (flag == true)
             {
-                return output_arrayBox.Text += "Number " + Convert.ToString(num)
+                return outputArrayBox.Text += "Number " + Convert.ToString(num)
                     + " is in the array." + Environment.NewLine;
             }
             else
-                return output_arrayBox.Text += "Number " + Convert.ToString(num)
+                return outputArrayBox.Text += "Number " + Convert.ToString(num)
                     + " is not contained in the array." + Environment.NewLine;
         }
 
         private void Button_sort_Click(object sender, EventArgs e)
         {
-            output_arrayBox.Clear();
-            int dim = int.Parse(dimensionBox.Text);
-            string[] sNums = input_arrayBox.Text.Split(',');
+            outputArrayBox.Clear();
+            int dim = int.Parse(inputDimensionBox.Text);
+            string[] sNums = inputArrayBox.Text.Split(',');
             if (dim > sNums.Length)
             {
                 MessageBox.Show("The length of the array does not match the entered! " +
@@ -72,14 +72,14 @@ namespace task_1
             for (int i = 0; i < dim; i++)
             {
                 Sort_array(nums);
-                output_arrayBox.Text += "Array[" + Convert.ToString(i + 1) + "] = "
+                outputArrayBox.Text += "Array[" + Convert.ToString(i + 1) + "] = "
                                      + Convert.ToString(nums[i]) + Environment.NewLine;
             }
         }
 
         private void Find_button_Click(object sender, EventArgs e)
         {
-            int num = int.Parse(searchBox.Text);
+            int num = int.Parse(inputSearchBox.Text);
             Search_in_array(num);
         }
     }

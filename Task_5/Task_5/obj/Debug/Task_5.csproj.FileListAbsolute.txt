@@ -1,0 +1,10 @@
+D:\Studying\Epam\Task_5\Task_5\bin\Debug\Task_5.exe.config
+D:\Studying\Epam\Task_5\Task_5\bin\Debug\Task_5.exe
+D:\Studying\Epam\Task_5\Task_5\bin\Debug\Task_5.pdb
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.csprojAssemblyReference.cache
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.Form1.resources
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.Properties.Resources.resources
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.csproj.GenerateResource.cache
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.csproj.CoreCompileInputs.cache
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.exe
+D:\Studying\Epam\Task_5\Task_5\obj\Debug\Task_5.pdb
