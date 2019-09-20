@@ -57,6 +57,7 @@ namespace task_1
 
         private void Button_sort_Click(object sender, EventArgs e)
         {
+            output_arrayBox.Clear();
             int dim = int.Parse(dimensionBox.Text);
             string[] sNums = input_arrayBox.Text.Split(',');
             if (dim > sNums.Length)
