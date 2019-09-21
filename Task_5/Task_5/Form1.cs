@@ -17,7 +17,7 @@ namespace Task_5
             InitializeComponent();
         }
 
-        class BracketsChecker
+        class BracketsCheck
         {
             private readonly string opening = "([{";
             private readonly string closing = ")]}";
@@ -54,7 +54,7 @@ namespace Task_5
         {
             outputBox.Clear();
             string s = inputBox.Text;
-            var checker = new BracketsChecker();
+            var checker = new BracketsCheck();
             foreach (var ch in s)
                 checker.Put(ch);
             outputBox.Text = Convert.ToString(checker.Balanced);

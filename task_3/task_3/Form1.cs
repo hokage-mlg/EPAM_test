@@ -58,7 +58,7 @@ namespace task_3
 
         private string string_counter_lib(string line)
         {
-            var words = line.Split(new[] { ' ', '.', ',', ';', ':', '!', '?' },
+            var words = line.Split(new[] {' ', '.', ',', ';', ':', '!', '?'},
                 StringSplitOptions.RemoveEmptyEntries);
             foreach (var w in words.Where(x => words.Count(y => y == x) == 1))
             {
